@@ -16,6 +16,7 @@ import { AboutComponent } from './about.component';
 import { AboutFactsComponent } from './about-facts.component';
 import { AboutPartnersComponent } from './about-partners.component';
 import { ContactComponent } from './contact.component';
+import { PricingComponent } from './pricing.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { ContactComponent } from './contact.component';
     AboutComponent,
     AboutFactsComponent,
     AboutPartnersComponent,
-    ContactComponent
+    ContactComponent,
+    PricingComponent
   ],
   imports: [
     BrowserModule,
