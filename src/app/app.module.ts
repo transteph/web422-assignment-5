@@ -17,6 +17,7 @@ import { AboutFactsComponent } from './about-facts.component';
 import { AboutPartnersComponent } from './about-partners.component';
 import { ContactComponent } from './contact.component';
 import { PricingComponent } from './pricing.component';
+import { PageNotFoundComponent } from './page-not-found.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { PricingComponent } from './pricing.component';
     AboutFactsComponent,
     AboutPartnersComponent,
     ContactComponent,
-    PricingComponent
+    PricingComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
